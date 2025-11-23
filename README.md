@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Package`
+pyinstaller --noconsole --onefile --name="LabPlotter" --icon="logo.ico" --splash="splash.png" --add-data "react_build;react_build" --hidden-import originpro --hidden-import pythoncom --hidden-import win32timezone --hidden-import flask_cors app.py
+
