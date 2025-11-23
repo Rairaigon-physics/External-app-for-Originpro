@@ -1,0 +1,1 @@
+pyinstaller --noconsole --onefile --name="LabPlotter" --icon="logo.ico" --splash="splash.png" --add-data "react_build;react_build" --hidden-import originpro --hidden-import pythoncom --hidden-import win32timezone app.py
